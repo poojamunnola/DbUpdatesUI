@@ -1,0 +1,21 @@
+   <div>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Customer Name</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let customer of customerInfo">
+        <tr>
+          <td>{{ customer.id }}</td>
+          <td>{{ customer.customerName }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <h4 class="centered-text">Customer ID <input type="text" placeholder="Enter customer ID"></h4>
+    <h4 class="centered-text">Version<input type="text" placeholder="Enter customer ID"></h4>
+
+  </div>
+
+  
